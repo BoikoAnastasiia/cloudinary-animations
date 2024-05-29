@@ -184,12 +184,12 @@ app.post('/create-video', async (req, res) => {
       // titleText: 'In Gipper We Trust',
       // ctaText: 'Dont click here',
       // imageUrl: 'cld-sample-4',
-      transformation: 'c_fill',
+      // transformation: 'c_fill',
     },
     tracks: [
       {
-        width: 800,
-        height: 450,
+        width: 720,
+        height: 900,
         x: 0,
         y: 0,
         clips: [
