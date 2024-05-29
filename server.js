@@ -2,11 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const cors = require('cors');
-const fs = require('fs');
-const archiver = require('archiver');
-const path = require('path');
-const { type } = require('os');
-import { cloudName, apiKey, apiSecret } from './api';
+const { cloudName, apiKey, apiSecret } = require('./api');
 
 const app = express();
 const port = 3001;
